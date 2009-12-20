@@ -1,0 +1,6 @@
+# Tatooine
+if [[ `uname -n` = "tatooine.local" ]]
+then
+        alias cddocs="cd /Volumes/Daten/Docs"
+        alias o="open"
+fi

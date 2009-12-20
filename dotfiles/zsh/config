@@ -1,0 +1,6 @@
+PROMPT="%n:%~ (%T@%w) %(40l.
+.) → "
+
+# Load completions for Ruby, Git, etc.
+autoload compinit
+compinit

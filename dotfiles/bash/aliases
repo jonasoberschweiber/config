@@ -1,0 +1,12 @@
+alias cdd="cd -"
+alias ..="cd .."
+alias reload="source ~/bin/dotfiles/bash/aliases"
+
+alias py="python"
+alias e="$EDITOR"
+
+# git
+function gg() {
+         git commit -v -a -m "$*"
+}
+alias gpom="git push origin master"
