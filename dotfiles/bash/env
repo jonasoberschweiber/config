@@ -1,1 +1,2 @@
 export EDITOR="emacsclient -n"
+export PATH=~/bin:$PATH

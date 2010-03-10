@@ -1,12 +1,15 @@
-(add-to-list 'load-path "~/.emacs.d/jonasoberschweiber")
+(add-to-list 'load-path "~/.emacs.d/jonas")
 (add-to-list 'load-path "~/Projects/jpl-mode")
+(add-to-list 'load-path "~/src/taskpaper-el")
 
 (setq load-path (cons "~/src/org-mode/lisp" load-path))
 (require 'org)
 
 (require 'color-theme)
 (load "inkpot.el")
-(color-theme-inkpot)
+(load "chocolate-rain.el")
+(load "taskpaper.el")
+(color-theme-chocolate-rain)
 
 (ido-mode t)
 (setq ido-enable-flex-matching t)
